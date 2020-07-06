@@ -18,6 +18,7 @@ body{
 h1{
 font-size: 4em;
 color: rgba(173, 173, 173, 0.979);
+border:  solid #F4D03F ;
 text-align: center;
 font-family: 'Kaushan Script', cursive;
 border-color: rgb(215, 223, 210);
@@ -35,11 +36,20 @@ h2{
 	text-shadow:  -4px 4px 0 rgba(0, 0, 0, 0.562); 
 	
 }
+img{
+		width: 850px;
+		border: solid #eee6e6;
+		background-image: center;
+		height: 500px;
+
+}
+
+
 
 h5{
 	font-size: 2.5rem;
 		color: #000000;
-		border: solid rgb(29, 189, 50);
+		border: solid rgba(0, 255, 34, 0.952);
 		text-align: center;
 		font-family: 'Kaushan Script', cursive;
 		margin-top:10px;
@@ -47,17 +57,20 @@ h5{
 		margin-right:auto;
 		text-shadow:  -4px 4px 0 rgba(255, 255, 255, 0.562); 
 	}
+#color{
+	background-color: #686363;
+}
+	
 
 h4{
 	font-size: 2rem;
 	color: #000000;
 	text-align: center;
-	border: solid rgb(29, 189, 50);
 	font-family: 'Kaushan Script', cursive;
 	margin-top:10px;
 	margin-left:auto;
 	margin-right:auto;
-	text-shadow:  -4px 4px 0 rgba(255, 255, 255, 0.562); 
+	text-shadow:  -4px 4px 0 rgba(170, 166, 166, 0.562); 
 }
 #menuPrincipal{
 	background-color:rgba(156, 53, 40, 0.877);
@@ -66,6 +79,8 @@ h4{
 	text-align:center;
 	
 }
+
+
 
 #menuPrincipal a{
 		font-family: 'Lobster', cursive;
@@ -204,7 +219,6 @@ iframe {
 	text-align: center;
 }
 h3{
-	font-size: 6rem;
 	color: rgb(153, 147, 147);
 	background: url(../imagenes/c.jpg);
 	text-align: center;
@@ -326,6 +340,7 @@ font-size: 2rem;
 
 
 
+
 #Formulario{
 	width: 100px;
 	position: relative;
@@ -440,18 +455,19 @@ legend{
 }
 
 footer{
-	background-color: rgb(13, 36, 134);
+	background-color: rgba(246, 248, 255, 0.973);
 	width: 100%;
-	height: 350px;
+	height: 340px;
 	padding: 10px;
 }
 
 	.redessociales{
 		width: 100%;
 		padding-left: 10%;
-		padding-right: 0px;
+		padding: 0px;
 		text-align: center;
 	}
+	
 	.redessociales img{
 		width: 50px;
 		background-image: center;
@@ -459,12 +475,14 @@ footer{
 	}
 
 	.redessociales h4{
-		font-size: 25px;
-		color: rgb(255, 255, 255);
+		font-size: 20px;
+		color: rgb(3, 3, 3);
 		font-family: 'Bebas Neue', cursive;
 		display: inline-block;
-		text-shadow:  -4px 4px 0 #000000;
+		text-align: right left;
+		text-shadow:  -2px 7px 1 #5c5959;
 	}
+	
 
 	
 	@media all and (max-width: 968px){
