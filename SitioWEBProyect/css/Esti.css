@@ -1,0 +1,608 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+
+body{
+	/*a razón de sitio repositivo*/
+	/*font-size:0px;*/
+	background:url(../imagenes/samuele-errico-piccarini-MyjVReZ5GLQ-unsplash.jpg)repeat ;
+	background-size: 500px;
+	padding-top: 1%;
+	background-position: center;
+	font-family: 'Kaushan Script', cursive;
+	background-size: 100% ;
+}
+h1{
+font-size: 4em;
+color: rgba(173, 173, 173, 0.979);
+text-align: center;
+font-family: 'Kaushan Script', cursive;
+border-color: rgb(215, 223, 210);
+text-shadow: -2px 2px 0 #f8f6f6, -4px 4px 0 #000000;
+padding-top: 50px;
+}
+h2{
+	font-size: 2em;
+	color: #eee6e6;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-shadow:  -4px 4px 0 rgba(0, 0, 0, 0.562); 
+	
+}
+
+h5{
+	font-size: 2.5rem;
+		color: #000000;
+		border: solid rgb(29, 189, 50);
+		text-align: center;
+		font-family: 'Kaushan Script', cursive;
+		margin-top:10px;
+		margin-left:auto;
+		margin-right:auto;
+		text-shadow:  -4px 4px 0 rgba(255, 255, 255, 0.562); 
+	}
+
+h4{
+	font-size: 2rem;
+	color: #000000;
+	text-align: center;
+	border: solid rgb(29, 189, 50);
+	font-family: 'Kaushan Script', cursive;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	text-shadow:  -4px 4px 0 rgba(255, 255, 255, 0.562); 
+}
+#menuPrincipal{
+	background-color:rgba(156, 53, 40, 0.877);
+	font-size: 1 px;
+	font-family: 'Kaushan Script', cursive;
+	text-align:center;
+	
+}
+
+#menuPrincipal a{
+		font-family: 'Lobster', cursive;
+		display:inline-block;
+		border-top:1px solid transparent;
+		border-bottom:1px solid transparent;
+		text-decoration:none;
+		color:rgba(255, 249, 249, 0.993);
+		padding:5px 30px;
+	}
+	#menuPrincipal a:hover:not(#desplegar_menu){
+		color:rgba(192, 192, 168, 0.918);
+		font-family: 'Lobster', cursive;
+		border-top:2px solid rgb(41, 5, 5);
+		border-bottom:2px solid rgb(41, 5, 5);
+	}
+	
+	#menuPrincipal #desplegar_menu{
+		display:none;
+	}
+.opcionMenuPrincipal{
+display: inline-block;
+text-decoration: none;
+color: black;
+padding: 10px 50px;
+position:relative;
+font-size: 1.5rem;
+font-family: 'Lobster', cursive;
+
+}
+.contenido{
+  width: 100%;
+  height: 900px;
+}
+
+.opcionMenuPrincipal:hover{
+	background-color: rgba(0, 0, 0, 0.726);
+	border:solid ;
+}
+.modelo{
+	position: relative;
+	background-position: left top;
+	background:url(../imagenes/ok.jpg);
+	background-size: 100% 80%;
+	height: 1000px;
+	width: 100% ;
+	
+}
+
+.quienessomos{
+	position: relative;
+	background-position: left top;
+	background-color:#a3a3a3bb;
+}
+.foro{
+	position: relative;
+	background-color:rgb(148, 152, 156);
+}
+.contacto{
+	position: relative;
+	background-color: rgba(107, 112, 119, 0.9);
+}
+
+#imagen{
+	width: 25px;
+	height:25px;
+}
+
+.Registrarse{
+	position: relative;
+	background-position: left top;
+	background-size: 100% 100%;
+	color:rgb(121, 126, 124);
+
+
+}
+.Iniciarsesion{
+	
+	text-align: center;
+	color:rgb(121, 126, 124);
+}
+
+form {
+ 
+  margin: 0 auto;
+  width: 1000px;
+  margin-left:auto;
+  padding:10px 0px;
+	margin-right:auto;
+    margin-top:1px;
+	text-align: center;
+	position: relative;
+	border: 3px solid #928686;
+  background-color: #ccbdbd;
+  border-radius: 1em;
+}
+
+form li + li {
+  margin-top: 2em;
+  text-align: center;
+}
+
+
+input,
+ textarea {
+ margin: 5px auto;
+	width: 80%;
+	font-size: 0.8rem;
+	display: block;
+	color: #FF5733;
+	font-family: arial;
+	text-align: center;
+	
+
+
+  border: 1px solid black;
+}
+
+
+
+button {
+  margin-left: 2em;
+  margin:1em;
+  text-align: center;
+  
+}
+
+iframe {
+	display: block;
+	margin: 50px;
+  width: 1000px;
+  height:200;
+  margin-left:auto;
+	margin-right:auto;
+	margin-top: 70px;
+	text-align: center;
+}
+h3{
+	font-size: 6rem;
+	color: rgb(153, 147, 147);
+	background: url(../imagenes/c.jpg);
+	text-align: center;
+	margin-top:0px;
+	font-family: 'Bebas Neue', cursive;
+	text-shadow: -2px 2px 0 rgb(248, 247, 247), -4px 4px 0 #0a0e27;
+}
+#chatp label{
+	height: 50px;
+	width: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#slider{
+	width: 80%;
+	position: absolute;
+	top:700px;
+	left:10px;
+}  /*dimencionar las imagenes*/
+.slide{
+		position : absolute;
+		width: 100%;
+		height: 700px;
+		top:0px;
+		left:0px;
+}
+
+#Formulario{
+	width: 500px;
+	height:150 ;
+	position: relative;
+	top: 10%;
+	left: 15%;
+	padding: 90px 15px ;
+	text-align: center;
+	background-color: rgba(8, 224, 160,0.7);
+	border: 2px solid #FF5733;
+	font-size: 1rem;
+	margin-top:100px;
+}
+#Formulario legend{
+	font-size: 10rem;
+	color: #f00;
+	padding: 200px 200px;
+	border: 1px solid #FF5733;
+}
+
+input, textarea, select{
+	height: 50px;
+	width: 85%;
+	border: solid 1px #03AE7B;
+	border-radius: 10px;
+	border-color: rgba(3, 174, 123,0.9);
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-left: 50px;
+	margin-top: 3px;
+	font-size: 5rem;
+	color: rgb(174, 57, 3);
+	font-size: 0.8rem;
+	font-family: arial;
+}
+
+
+textarea{
+	margin: 5px auto;
+	width: 80%;
+	font-size: 0.8rem;
+	display: block;
+	color: #FF5733;
+	font-family: arial;
+	text-align: center;
+}
+
+input[type="radio"],input[type="checkbox"]{
+	width: 20px;
+	background-color: transparent;
+	margin: 0px 10px;
+	padding: 0px;
+}
+
+legend{
+	font-size: 150px;
+	font-family: 'Lobster', cursive;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	background: rgb(145, 148, 147);
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.Formulario label {
+ 
+	display: inline-block;
+	  font: 1em 'Bebas Neue', cursive;
+	  width: 50px;
+	  text-align: center;
+	  color: rgb(255, 14, 14);
+	  height: 500px;  
+	  font-size: 2rem;
+	
+	
+}
+
+
+#chatp label{
+display: inline-block;
+font: 1em 'Bebas Neue', cursive;
+height: 150px;
+width: 50px;
+text-align: center;
+color: rgb(255, 14, 14);
+height: 500px;  
+font-size: 2rem;
+}
+
+
+
+#Formulario{
+	width: 100px;
+	position: relative;
+	top: 10%;
+	left: 15%;
+	padding: 50px 10px;
+	text-align: center;
+	background-color: rgb(224, 176, 144);
+	border: 1px solid rgb(0, 0, 0);
+	font-size: 1rem;
+	margin-top: 100px;
+}
+#Formulario legend{
+	font-size: 4rem;
+	color: rgb(0, 0, 0);
+	padding: 2px 100px;
+	border: 1px solid rgb(231, 42, 0);
+}
+
+input, textarea, select{
+	height: 28px;
+	width: 85%;
+	border: solid 2px rgb(2, 2, 2);
+	border-radius: 10px;
+	border-color: rgba(194, 221, 213, 0.9);
+	background-repeat: no-repeat;
+	padding: 5px;
+	padding-left: 35px;
+	margin-top: 3px;
+	color: rgba(126, 123, 123, 0.76);
+	font-size: 0.9rem;
+	font-family: arial;
+}
+
+input[type="radio"],input[type="checkbox"]{
+	width: 20px;
+	background-color: transparent;
+	margin: 0px 100px;
+	padding: 0px;
+
+}
+legend{
+	font-size: 150px;
+	font-family: 'Lobster', cursive;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	background: rgb(121, 126, 124);
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h6{
+font-size: 1.5em;
+background-color: rgba(214, 213, 153, 0.445) ;
+color: rgb(0, 0, 0);
+text-align: center;
+padding-top: 10px;
+}
+
+#Formulario1{
+	width: 500px;
+	position: relative;
+	top: 10%;
+	left: 15%;
+	padding: 90px 15px;
+	text-align: center;
+	background-color: rgba(67, 72, 80,1);
+	border: 1px solid #f30000;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1rem;
+	margin-top: 50px;
+}
+#Formulario1 legend{
+	font-size: 4rem;
+	color: #000000;
+	padding: 2px 100px;
+	border: 1px solid #f6fa00;
+}
+
+input, textarea, select{
+	height: 28px;
+	width: 85%;
+	border: solid 1px #03AE7B;
+	border-radius: 10px;
+	border-color: rgba(174, 214, 241,0.9);
+	background-repeat: no-repeat;
+	padding: 50px;
+	padding-left: 35px;
+	padding-right: 35px;
+	margin-top: 7px;
+	color: #434850;
+	font-size: .8rem;
+	font-family: arial;
+}
+
+input[type="radio"],input[type="checkbox"]{
+	width: 20px;
+	background-color: transparent;
+	margin: 0px 100px;
+	padding: 0px;
+
+}
+legend{
+	font-size: 150px;
+	font-family: 'Lobster', cursive;
+	color: #F4D03F;
+	text-align: left;
+	background: rgba(67, 72, 80, 1);
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer{
+	background-color: rgb(13, 36, 134);
+	width: 100%;
+	height: 350px;
+	padding: 10px;
+}
+
+	.redessociales{
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 0px;
+		text-align: center;
+	}
+	.redessociales img{
+		width: 50px;
+		background-image: center;
+		height: 50px;
+	}
+
+	.redessociales h4{
+		font-size: 25px;
+		color: rgb(255, 255, 255);
+		font-family: 'Bebas Neue', cursive;
+		display: inline-block;
+		text-shadow:  -4px 4px 0 #000000;
+	}
+
+	
+	@media all and (max-width: 968px){
+		.chat{
+			display: none;
+		}
+	}
+	
+	@media all and (max-width: 968px){
+		.foro{
+			display: none;
+		}
+	}
+	@media all and (max-width: 968px){
+		.quienessomos{
+			display: block;
+			width: 100%;
+			padding: 0px;
+		}
+		.quienessomos h2{
+			font-size: 1.5rem;
+			color: #000;
+		}
+	
+	}
+	@media all and (max-width: 968px){
+		.TYC{
+			display: block;
+			width: 100% ;
+		}
+		.TYC iframe{
+			display:inline-block;
+			width: 80%;
+			height: 60%;
+		}
+	}
+	@media all and (max-width: 968px){
+		.PYP{
+			display: block;
+			width: 100% ;
+		}
+		.PYP iframe{
+			display:inline-block;
+			width: 50%;
+			height: 60%;
+			font-size: 1 rem;
+		}
+	}
+	@media all and (max-width: 968px){
+		.contacto{
+			display: block;  
+			width: 100% ;
+		}
+		.contacto iframe{
+			display:block;
+			width: 80%;
+			height: 60%;
+		}
+	}
+	@media all and (max-width: 968px){
+		.Registrarse{
+			display: block;
+			
+		}
+		.Registrarse{
+			display: block;
+		}
+	}
+	@media all and (max-width: 968px){
+		.Iniciarsesion{
+			display: block;
+			
+		}
+		.Iniciarsesion iframe{
+			display: block;
+			
+		}
+	}
+	@media all and (max-width: 968px){
+		.footer{
+			background-color: grey;
+			width: 100%;
+			height: 100px;
+		}
+	}
+	@media all and (max-width: 968px){
+		.redessociales{
+			width: 100%;
+		}
+	}
+	@media all and (max-width: 968px){
+		.redes{
+			width: 100%;
+		}
+	}
+	@media all and (max-width: 968px){
+		.redessociales img{
+			width: 50px;
+			background-image: center;
+			height: 50px;
+		}
+	}
+	@media all and (max-width: 968px){
+		.redessociales h4{
+			font-size: 25px;
+			color: rgb(255, 255, 255);
+			font-family: 'Bebas Neue', cursive;
+			display: inline-block;
+			text-shadow:  -4px 4px 0 #000000;
+		}
+	}
+	@media all and (max-width: 968px){
+		.contacto{
+			display: block;
+			width: 100% ;
+		}
+		.contacto iframe{
+			display:block;
+			width: 80%;
+			height: 60%;
+		}
+	}
+	
+	@media all and (max-width: 968px){
+		.fondo{
+			width: 100%;
+			height: auto;
+		}
+		.fondo h1{
+			font-size: 30px;
+		}
+	}
+	@media all and (max-width: 968px){
+		.fondo1 h4{
+			font-size: 2rem;
+		}
+	}
+	
+
+	
+	
